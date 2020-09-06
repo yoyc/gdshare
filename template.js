@@ -8,7 +8,7 @@ const CONFIG = {
     AUTH: {
         client_id: "http://202264815644.apps.googleusercontent.com", // 这三项是你的google帐号个人授权信息，和goindex相同
         client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // 同上必填
-        refresh_token: "1/u2mzMLGha4pS1s2bZUOZL7c1MnM_O7ZIojiFgow9fYE", // 同上必填
+        refresh_token: "必填", // 同上必填
         expires: 0,
         access_token: "" // 可不填
     }
