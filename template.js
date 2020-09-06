@@ -1,14 +1,14 @@
 const CONFIG = {
-    PASSKEY: "this is your passkey", // 管理员网页登录密钥，请自行修改，尽量复杂
+    PASSKEY: "nssghhh900123", // 管理员网页登录密钥，请自行修改，尽量复杂
     HASHKEY: "this is your hash key", // 用于校验生成的下载链接和分享链接，请自行修改，尽量复杂。修改后之前生成的下载和分享链接都会失效
     RETRY_LIMIT: 5, // 有时调用 google drive api 读取目录时会报错，这里设置最多允许重试的次数
     PAGESIZE: 100, // 读取列表的单页对象数，官方限制最大 1000
-    ORDERBY: 'modifiedTime', // 可选值 modifiedTime 或 name，分别表示根据文件修改时间排序和根据文件名排序
-    DESC: true, // 可选值 true 或 false，分别表示逆序排列和顺序排列
+    ORDERBY: 'name', // 可选值 modifiedTime 或 name，分别表示根据文件修改时间排序和根据文件名排序
+    DESC: false, // 可选值 true 或 false，分别表示逆序排列和顺序排列
     AUTH: {
-        client_id: "insert_your_client_id", // 这三项是你的google帐号个人授权信息，和goindex相同
-        client_secret: "insert_your_client_secret", // 同上必填
-        refresh_token: "insert_your_refresh_token", // 同上必填
+        client_id: "http://202264815644.apps.googleusercontent.com", // 这三项是你的google帐号个人授权信息，和goindex相同
+        client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // 同上必填
+        refresh_token: "1/u2mzMLGha4pS1s2bZUOZL7c1MnM_O7ZIojiFgow9fYE", // 同上必填
         expires: 0,
         access_token: "" // 可不填
     }
